@@ -1,0 +1,22 @@
+{
+    "chargeBeeApiKey": "",
+    "chargeBeeSite": "",
+    "gatewayAccountId": "",
+    "stripeKey": "",
+    "loadStripePageId": "",
+    "loadStripePageSlug": "",
+    "loadFormPageId": "",
+    "loadFormPageSlug": "",
+    "loadPlanPageId": "",
+    "loadPlanPageSlug": "",
+    "stripeEmail": "",
+    "stripeImg": "",
+    "successMsg": "",
+    "planBox": "",
+    "planName": "",
+    "planType": "",
+    "planBody": "",
+    "planDescription": "",
+    "planButtonContainer": "",
+    "planButton": ""
+}

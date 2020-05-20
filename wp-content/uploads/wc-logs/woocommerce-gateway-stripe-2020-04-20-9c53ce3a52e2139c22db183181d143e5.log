@@ -1,0 +1,109 @@
+2020-04-20T19:56:58+00:00 DEBUG 
+====Stripe Version: 4.3.3====
+====Start Log====
+Error: Unable to create domain association folder to domain root.
+====End Log====
+
+
+2020-04-20T20:00:39+00:00 DEBUG 
+====Stripe Version: 4.3.3====
+====Start Log====
+Error: Unable to create domain association folder to domain root.
+====End Log====
+
+
+2020-04-20T20:02:21+00:00 DEBUG 
+====Stripe Version: 4.3.3====
+====Start Log====
+Error: Unable to create domain association folder to domain root.
+====End Log====
+
+
+2020-04-20T20:04:02+00:00 DEBUG 
+====Stripe Version: 4.3.3====
+====Start Log====
+Error: Unable to create domain association folder to domain root.
+====End Log====
+
+
+2020-04-20T20:07:19+00:00 DEBUG 
+====Stripe Version: 4.3.3====
+====Start Log====
+Stripe live mode requires SSL.
+====End Log====
+
+
+2020-04-20T20:07:19+00:00 DEBUG 
+====Stripe Version: 4.3.3====
+====Start Log====
+customers/cus_H80E98UkCHCgee/sources request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2020-04-20T20:07:19+00:00 DEBUG 
+====Stripe Version: 4.3.3====
+====Start Log====
+customers/cus_H80E98UkCHCgee/sources request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2020-04-20T20:07:22+00:00 DEBUG 
+====Stripe Version: 4.3.3====
+====Start Log====
+customers/cus_H80E98UkCHCgee/sources request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2020-04-20T20:07:22+00:00 DEBUG 
+====Stripe Version: 4.3.3====
+====Start Log====
+customers/cus_H80E98UkCHCgee/sources request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2020-04-20T20:07:36+00:00 DEBUG 
+====Stripe Version: 4.3.3====
+====Start Log====
+customers/cus_H80E98UkCHCgee request: Array
+(
+    [email] => info@webandroid.in
+    [description] => Name: Chetana Chalapalle, Username: Chetana
+    [metadata] => Array
+        (
+        )
+
+)
+
+====End Log====
+
+
+2020-04-20T20:07:36+00:00 DEBUG 
+====Stripe Version: 4.3.3====
+====Start Log====
+Error: stdClass Object
+(
+    [token_id] => 
+    [customer] => cus_H80E98UkCHCgee
+    [source] => 
+    [source_object] => 
+)
+
+====End Log====
+
+

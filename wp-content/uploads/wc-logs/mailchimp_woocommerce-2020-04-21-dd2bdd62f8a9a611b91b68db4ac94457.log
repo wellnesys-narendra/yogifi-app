@@ -1,0 +1,47 @@
+2020-04-21T22:23:03+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_User_Submit starts in the next minute :: obj_id 1
+2020-04-21T22:23:03+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 1197
+2020-04-21T22:23:08+00:00 NOTICE debug :: Order ID 1197 was pending and is now processing :: Array
+(
+    [new_order] => 1
+    [tracking] => Array
+        (
+            [campaign_id] => 
+            [landing_site] => http://34.67.255.167:8000/wp-admin/admin-ajax.php
+        )
+
+)
+
+2020-04-21T22:23:10+00:00 NOTICE member.sync :: Updated Member info@webandroid.in ( merge fields only ) :: Array
+(
+    [merge_fields] => Array
+        (
+            [FNAME] => xm mn
+            [LNAME] => mn nb
+        )
+
+)
+
+2020-04-21T22:24:48+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_User_Submit starts in the next minute :: obj_id 1
+2020-04-21T22:24:48+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Order starts in 90 seconds :: obj_id 1198
+2020-04-21T22:24:52+00:00 NOTICE debug :: Order ID 1198 was pending and is now processing :: Array
+(
+    [new_order] => 1
+    [tracking] => Array
+        (
+            [campaign_id] => 
+            [landing_site] => http://34.67.255.167:8000/?wc-ajax=get_refreshed_fragments
+        )
+
+)
+
+2020-04-21T22:25:43+00:00 NOTICE order_submit.success :: addStoreOrder :: #1197 :: email: chethana@wellnesys.com :: landing site http://34.67.255.167:8000/wp-admin/admin-ajax.php :: abandoned cart deleted [cb1354a4532f070d1eecdd9be82625a6]
+2020-04-21T22:25:43+00:00 NOTICE member.sync :: Updated Member info@webandroid.in ( merge fields only ) :: Array
+(
+    [merge_fields] => Array
+        (
+            [FNAME] => xm mn
+            [LNAME] => mn nb
+        )
+
+)
+

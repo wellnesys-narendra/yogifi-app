@@ -1,0 +1,702 @@
+2020-04-21T22:21:05+00:00 DEBUG 
+====Stripe Version: 4.3.3====
+====Start Log====
+customers/cus_H80E98UkCHCgee/sources request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2020-04-21T22:21:05+00:00 DEBUG 
+====Stripe Version: 4.3.3====
+====Start Log====
+customers/cus_H80E98UkCHCgee/sources request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2020-04-21T22:21:09+00:00 DEBUG 
+====Stripe Version: 4.3.3====
+====Start Log====
+customers/cus_H80E98UkCHCgee/sources request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2020-04-21T22:21:09+00:00 DEBUG 
+====Stripe Version: 4.3.3====
+====Start Log====
+customers/cus_H80E98UkCHCgee/sources request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2020-04-21T22:23:03+00:00 DEBUG 
+====Stripe Version: 4.3.3====
+====Start Log====
+sources/src_1GaUUcDzGQTD0LANFjloucrK
+====End Log====
+
+
+2020-04-21T22:23:03+00:00 DEBUG 
+====Stripe Version: 4.3.3====
+====Start Log====
+customers/cus_H80E98UkCHCgee request: Array
+(
+    [email] => info@webandroid.in
+    [description] => Name: Chetana Chalapalle, Username: Chetana
+    [metadata] => Array
+        (
+        )
+
+)
+
+====End Log====
+
+
+2020-04-21T22:23:04+00:00 DEBUG 
+====Stripe Version: 4.3.3====
+====Start Log====
+customers request: Array
+(
+    [email] => info@webandroid.in
+    [description] => Name: Chetana Chalapalle, Username: Chetana
+    [metadata] => Array
+        (
+        )
+
+)
+
+====End Log====
+
+
+2020-04-21T22:23:04+00:00 DEBUG 
+====Stripe Version: 4.3.3====
+====Start Log====
+customers/cus_H8m2lHrLRQY5km request: Array
+(
+    [email] => info@webandroid.in
+    [description] => Name: Chetana Chalapalle, Username: Chetana
+    [metadata] => Array
+        (
+        )
+
+)
+
+====End Log====
+
+
+2020-04-21T22:23:04+00:00 DEBUG 
+====Stripe Version: 4.3.3====
+====Start Log====
+Info: Begin processing payment for order 1197 for the amount of 1191.64
+====End Log====
+
+
+2020-04-21T22:23:04+00:00 DEBUG 
+====Stripe Version: 4.3.3====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1GaUUcDzGQTD0LANFjloucrK
+    [amount] => 119164
+    [currency] => usd
+    [description] => Yogifi - Order 1197
+    [metadata] => Array
+        (
+            [customer_name] => Chetana Chalapalle
+            [customer_email] => chethana@wellnesys.com
+            [order_id] => 1197
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_H8m2lHrLRQY5km
+    [statement_descriptor] => YOGIFI SMART YOGA MAT
+)
+
+====End Log====
+
+
+2020-04-21T22:23:05+00:00 DEBUG 
+====Stripe Version: 4.3.3====
+====Start Log====
+Stripe PaymentIntent pi_1GaUUfDzGQTD0LANRQnFdejG initiated for order 1197
+====End Log====
+
+
+2020-04-21T22:23:05+00:00 DEBUG 
+====Stripe Version: 4.3.3====
+====Start Log====
+payment_intents/pi_1GaUUfDzGQTD0LANRQnFdejG/confirm request: Array
+(
+    [source] => src_1GaUUcDzGQTD0LANFjloucrK
+    [level3] => Array
+        (
+            [merchant_reference] => 1197
+            [shipping_amount] => 25000
+            [line_items] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [product_code] => 662
+                            [product_description] => YogiFi Series 1 - Liberty
+                            [unit_cost] => 39900
+                            [quantity] => 2
+                            [tax_amount] => 14364
+                            [discount_amount] => 0
+                        )
+
+                )
+
+            [shipping_address_zip] => 20871
+        )
+
+)
+
+====End Log====
+
+
+2020-04-21T22:23:05+00:00 DEBUG 
+====Stripe Version: 4.3.3====
+====Start Log====
+payment_intents/pi_1GaUUfDzGQTD0LANRQnFdejG/confirm request: Array
+(
+    [source] => src_1GaUUcDzGQTD0LANFjloucrK
+)
+
+====End Log====
+
+
+2020-04-21T22:23:06+00:00 DEBUG 
+====Stripe Version: 4.3.3====
+====Start Log====
+Stripe PaymentIntent pi_1GaUUfDzGQTD0LANRQnFdejG succeeded for order 1197
+====End Log====
+
+
+2020-04-21T22:23:06+00:00 DEBUG 
+====Stripe Version: 4.3.3====
+====Start Log====
+Processing response: stdClass Object
+(
+    [id] => ch_1GaUUgDzGQTD0LANYBDzXrj9
+    [object] => charge
+    [amount] => 119164
+    [amount_refunded] => 0
+    [application] => 
+    [application_fee] => 
+    [application_fee_amount] => 
+    [balance_transaction] => txn_1GaUUgDzGQTD0LANvMKRiQus
+    [billing_details] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => Clarksburg
+                    [country] => US
+                    [line1] => 23255 Arora Hills dr
+                    [line2] => 
+                    [postal_code] => 20871
+                    [state] => MD
+                )
+
+            [email] => chethana@wellnesys.com
+            [name] => Chetana Chalapalle
+            [phone] => 2403617709
+        )
+
+    [calculated_statement_descriptor] => YOGIFI SMART YOGA MAT
+    [captured] => 1
+    [created] => 1587507786
+    [currency] => usd
+    [customer] => cus_H8m2lHrLRQY5km
+    [description] => Yogifi - Order 1197
+    [destination] => 
+    [dispute] => 
+    [disputed] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [livemode] => 
+    [metadata] => stdClass Object
+        (
+            [customer_name] => Chetana Chalapalle
+            [customer_email] => chethana@wellnesys.com
+            [order_id] => 1197
+        )
+
+    [on_behalf_of] => 
+    [order] => 
+    [outcome] => stdClass Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [risk_score] => 45
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [payment_intent] => pi_1GaUUfDzGQTD0LANRQnFdejG
+    [payment_method] => src_1GaUUcDzGQTD0LANFjloucrK
+    [payment_method_details] => stdClass Object
+        (
+            [card] => stdClass Object
+                (
+                    [brand] => visa
+                    [checks] => stdClass Object
+                        (
+                            [address_line1_check] => pass
+                            [address_postal_code_check] => pass
+                            [cvc_check] => pass
+                        )
+
+                    [country] => US
+                    [exp_month] => 2
+                    [exp_year] => 2025
+                    [fingerprint] => I9oXsJl7Jp77dLnj
+                    [funding] => credit
+                    [installments] => 
+                    [last4] => 4242
+                    [network] => visa
+                    [three_d_secure] => 
+                    [wallet] => 
+                )
+
+            [type] => card
+        )
+
+    [receipt_email] => 
+    [receipt_number] => 
+    [receipt_url] => https://pay.stripe.com/receipts/acct_1FsDfJDzGQTD0LAN/ch_1GaUUgDzGQTD0LANYBDzXrj9/rcpt_H8m2KYYTzMPHObXB2YFu3WLmMxuzafd
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_1GaUUgDzGQTD0LANYBDzXrj9/refunds
+        )
+
+    [review] => 
+    [shipping] => 
+    [source] => stdClass Object
+        (
+            [id] => src_1GaUUcDzGQTD0LANFjloucrK
+            [object] => source
+            [amount] => 
+            [card] => stdClass Object
+                (
+                    [exp_month] => 2
+                    [exp_year] => 2025
+                    [last4] => 4242
+                    [country] => US
+                    [brand] => Visa
+                    [address_line1_check] => pass
+                    [address_zip_check] => pass
+                    [cvc_check] => pass
+                    [funding] => credit
+                    [fingerprint] => I9oXsJl7Jp77dLnj
+                    [three_d_secure] => optional
+                    [name] => 
+                    [tokenization_method] => 
+                    [dynamic_last4] => 
+                )
+
+            [client_secret] => src_client_secret_KI88WkWcEA8mEeSh7HC4BDYh
+            [created] => 1587507786
+            [currency] => 
+            [flow] => none
+            [livemode] => 
+            [metadata] => stdClass Object
+                (
+                )
+
+            [owner] => stdClass Object
+                (
+                    [address] => stdClass Object
+                        (
+                            [city] => Clarksburg
+                            [country] => US
+                            [line1] => 23255 Arora Hills dr
+                            [line2] => 
+                            [postal_code] => 20871
+                            [state] => MD
+                        )
+
+                    [email] => chethana@wellnesys.com
+                    [name] => Chetana Chalapalle
+                    [phone] => 2403617709
+                    [verified_address] => 
+                    [verified_email] => 
+                    [verified_name] => 
+                    [verified_phone] => 
+                )
+
+            [statement_descriptor] => 
+            [status] => consumed
+            [type] => card
+            [usage] => reusable
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => YOGIFI SMART YOGA MAT
+    [statement_descriptor_suffix] => 
+    [status] => succeeded
+    [transfer_data] => 
+    [transfer_group] => 
+)
+
+====End Log====
+
+
+2020-04-21T22:23:06+00:00 DEBUG 
+====Stripe Version: 4.3.3====
+====Start Log====
+balance/history/txn_1GaUUgDzGQTD0LANvMKRiQus
+====End Log====
+
+
+2020-04-21T22:24:19+00:00 DEBUG 
+====Stripe Version: 4.3.3====
+====Start Log====
+customers/cus_H8m2lHrLRQY5km/sources request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2020-04-21T22:24:20+00:00 DEBUG 
+====Stripe Version: 4.3.3====
+====Start Log====
+customers/cus_H8m2lHrLRQY5km/sources request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2020-04-21T22:24:21+00:00 DEBUG 
+====Stripe Version: 4.3.3====
+====Start Log====
+customers/cus_H8m2lHrLRQY5km/sources request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2020-04-21T22:24:21+00:00 DEBUG 
+====Stripe Version: 4.3.3====
+====Start Log====
+customers/cus_H8m2lHrLRQY5km/sources request: Array
+(
+    [limit] => 100
+)
+
+====End Log====
+
+
+2020-04-21T22:24:49+00:00 DEBUG 
+====Stripe Version: 4.3.3====
+====Start Log====
+sources/src_1GaUWJDzGQTD0LAN3Sbhbimz
+====End Log====
+
+
+2020-04-21T22:24:49+00:00 DEBUG 
+====Stripe Version: 4.3.3====
+====Start Log====
+customers/cus_H8m2lHrLRQY5km request: Array
+(
+    [email] => info@webandroid.in
+    [description] => Name: Chetana Chalapalle, Username: Chetana
+    [metadata] => Array
+        (
+        )
+
+)
+
+====End Log====
+
+
+2020-04-21T22:24:49+00:00 DEBUG 
+====Stripe Version: 4.3.3====
+====Start Log====
+Info: Begin processing payment for order 1198 for the amount of 720.82
+====End Log====
+
+
+2020-04-21T22:24:49+00:00 DEBUG 
+====Stripe Version: 4.3.3====
+====Start Log====
+payment_intents request: Array
+(
+    [source] => src_1GaUWJDzGQTD0LAN3Sbhbimz
+    [amount] => 72082
+    [currency] => usd
+    [description] => Yogifi - Order 1198
+    [metadata] => Array
+        (
+            [customer_name] => Chetana Chalapalle
+            [customer_email] => chethana@wellnesys.com
+            [order_id] => 1198
+        )
+
+    [capture_method] => automatic
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [customer] => cus_H8m2lHrLRQY5km
+    [statement_descriptor] => YOGIFI SMART YOGA MAT
+)
+
+====End Log====
+
+
+2020-04-21T22:24:50+00:00 DEBUG 
+====Stripe Version: 4.3.3====
+====Start Log====
+Stripe PaymentIntent pi_1GaUWLDzGQTD0LANZLlNzdQ7 initiated for order 1198
+====End Log====
+
+
+2020-04-21T22:24:50+00:00 DEBUG 
+====Stripe Version: 4.3.3====
+====Start Log====
+payment_intents/pi_1GaUWLDzGQTD0LANZLlNzdQ7/confirm request: Array
+(
+    [source] => src_1GaUWJDzGQTD0LAN3Sbhbimz
+)
+
+====End Log====
+
+
+2020-04-21T22:24:51+00:00 DEBUG 
+====Stripe Version: 4.3.3====
+====Start Log====
+Stripe PaymentIntent pi_1GaUWLDzGQTD0LANZLlNzdQ7 succeeded for order 1198
+====End Log====
+
+
+2020-04-21T22:24:51+00:00 DEBUG 
+====Stripe Version: 4.3.3====
+====Start Log====
+Processing response: stdClass Object
+(
+    [id] => ch_1GaUWMDzGQTD0LANXdb8JEFM
+    [object] => charge
+    [amount] => 72082
+    [amount_refunded] => 0
+    [application] => 
+    [application_fee] => 
+    [application_fee_amount] => 
+    [balance_transaction] => txn_1GaUWMDzGQTD0LAN331AVrJg
+    [billing_details] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => Clarksburg
+                    [country] => US
+                    [line1] => 23255 Arora Hills dr
+                    [line2] => 
+                    [postal_code] => 20871
+                    [state] => MD
+                )
+
+            [email] => chethana@wellnesys.com
+            [name] => Chetana Chalapalle
+            [phone] => 2403617709
+        )
+
+    [calculated_statement_descriptor] => YOGIFI SMART YOGA MAT
+    [captured] => 1
+    [created] => 1587507890
+    [currency] => usd
+    [customer] => cus_H8m2lHrLRQY5km
+    [description] => Yogifi - Order 1198
+    [destination] => 
+    [dispute] => 
+    [disputed] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [livemode] => 
+    [metadata] => stdClass Object
+        (
+            [customer_name] => Chetana Chalapalle
+            [customer_email] => chethana@wellnesys.com
+            [order_id] => 1198
+        )
+
+    [on_behalf_of] => 
+    [order] => 
+    [outcome] => stdClass Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [risk_score] => 2
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [payment_intent] => pi_1GaUWLDzGQTD0LANZLlNzdQ7
+    [payment_method] => src_1GaUWJDzGQTD0LAN3Sbhbimz
+    [payment_method_details] => stdClass Object
+        (
+            [card] => stdClass Object
+                (
+                    [brand] => visa
+                    [checks] => stdClass Object
+                        (
+                            [address_line1_check] => pass
+                            [address_postal_code_check] => pass
+                            [cvc_check] => pass
+                        )
+
+                    [country] => US
+                    [exp_month] => 5
+                    [exp_year] => 2022
+                    [fingerprint] => I9oXsJl7Jp77dLnj
+                    [funding] => credit
+                    [installments] => 
+                    [last4] => 4242
+                    [network] => visa
+                    [three_d_secure] => 
+                    [wallet] => 
+                )
+
+            [type] => card
+        )
+
+    [receipt_email] => 
+    [receipt_number] => 
+    [receipt_url] => https://pay.stripe.com/receipts/acct_1FsDfJDzGQTD0LAN/ch_1GaUWMDzGQTD0LANXdb8JEFM/rcpt_H8m4PxREkwhzCYjWRfhHK5vXdMlhzvt
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_1GaUWMDzGQTD0LANXdb8JEFM/refunds
+        )
+
+    [review] => 
+    [shipping] => 
+    [source] => stdClass Object
+        (
+            [id] => src_1GaUWJDzGQTD0LAN3Sbhbimz
+            [object] => source
+            [amount] => 
+            [card] => stdClass Object
+                (
+                    [exp_month] => 5
+                    [exp_year] => 2022
+                    [last4] => 4242
+                    [country] => US
+                    [brand] => Visa
+                    [address_line1_check] => pass
+                    [address_zip_check] => pass
+                    [cvc_check] => pass
+                    [funding] => credit
+                    [fingerprint] => I9oXsJl7Jp77dLnj
+                    [three_d_secure] => optional
+                    [name] => 
+                    [tokenization_method] => 
+                    [dynamic_last4] => 
+                )
+
+            [client_secret] => src_client_secret_JQCKsRsEdZ7tOCYzuAOWyg3U
+            [created] => 1587507890
+            [currency] => 
+            [flow] => none
+            [livemode] => 
+            [metadata] => stdClass Object
+                (
+                )
+
+            [owner] => stdClass Object
+                (
+                    [address] => stdClass Object
+                        (
+                            [city] => Clarksburg
+                            [country] => US
+                            [line1] => 23255 Arora Hills dr
+                            [line2] => 
+                            [postal_code] => 20871
+                            [state] => MD
+                        )
+
+                    [email] => chethana@wellnesys.com
+                    [name] => Chetana Chalapalle
+                    [phone] => 2403617709
+                    [verified_address] => 
+                    [verified_email] => 
+                    [verified_name] => 
+                    [verified_phone] => 
+                )
+
+            [statement_descriptor] => 
+            [status] => consumed
+            [type] => card
+            [usage] => reusable
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => YOGIFI SMART YOGA MAT
+    [statement_descriptor_suffix] => 
+    [status] => succeeded
+    [transfer_data] => 
+    [transfer_group] => 
+)
+
+====End Log====
+
+
+2020-04-21T22:24:51+00:00 DEBUG 
+====Stripe Version: 4.3.3====
+====Start Log====
+balance/history/txn_1GaUWMDzGQTD0LAN331AVrJg
+====End Log====
+
+

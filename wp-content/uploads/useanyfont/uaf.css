@@ -1,0 +1,9 @@
+				@font-face {
+					font-family: 'turquoise';
+					src: url('/wp-content/uploads/useanyfont/200310100531turquoise.woff2') format('woff2'),
+						url('/wp-content/uploads/useanyfont/200310100531turquoise.woff') format('woff');
+				}
+
+				.turquoise{font-family: 'turquoise' !important;}
+
+		

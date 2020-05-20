@@ -1,0 +1,7 @@
+{
+    "name": "thinkun/inspire2020",
+    "description": "PHP Composer configurations for the Inspire 2020 Child theme.",
+    "require-dev": {
+        "chargebee/chargebee-php": ">=2, <3"
+    }
+}
